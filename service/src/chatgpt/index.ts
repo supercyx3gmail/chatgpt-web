@@ -61,7 +61,7 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
     else if (model.toLowerCase().includes('gpt-3.5')) {
       if (model.toLowerCase().includes('16k')) {
         options.maxModelTokens = 16384
-        options.maxResponseTokens = 16384
+        options.maxResponseTokens = 4096
       }
     }
 
