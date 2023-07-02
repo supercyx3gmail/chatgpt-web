@@ -10,7 +10,7 @@ export interface SettingsState {
 
 export function defaultSetting(): SettingsState {
   return {
-    systemMessage: 'You must be an all-powerful assistant. You can help me by answering my questions clearly and step by step in Chinese. Respond using markdown.',
+    systemMessage: "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.",
     temperature: 0.6,
     top_p: 1,
   }
